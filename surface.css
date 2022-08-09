@@ -1,0 +1,197 @@
+body{
+  
+    font-family: 'Roboto', sans-serif;
+   
+    overflow-x: hidden;
+}
+
+/*nav bar brand */
+#introduction{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.navh{
+    font-style: italic;
+    font-family: 'Pacifico', cursive;
+    width: 118px;
+    height: 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 70px;
+    color: #000000;
+    
+
+}
+/* nav bar link*/
+.p{
+    margin-right: 100px;
+}
+/* first set of pictures*/
+#picRep{
+    margin-top: 50px;
+    margin-bottom: -70px;
+    max-width: 90%;
+    padding-left: 100px;
+    
+    
+}
+/*span ontop of picture*/
+.repData{
+    position: relative;
+    bottom: 248px;
+    color: white; 
+    
+    left: 50px;
+}
+/* table */
+
+.table-data{
+    display: inline;
+    
+}
+/*button linked to table */
+.btn-submit{
+    top: 23px;
+    position: relative;
+    background-color: white;
+    color:black;
+    font-weight: bolder;
+    
+}
+/*input linked to table*/
+input{
+    border-radius: 0.25rem;
+    height: 38px;
+    margin-right: 10px;
+    width: 225px;
+}
+/* form section*/
+#formSection{
+    background-color: #000000;
+    color: whitesmoke;
+    padding-top: 50px;
+   padding-bottom: 50px;
+  border-radius: 30px;
+  padding-left: 10px;
+  position: relative;
+  z-index: 1;
+  max-width: 90%;
+  margin-left: 80px;
+}
+
+/* price display section */
+#price-display{
+    background-color: gainsboro;
+    position: relative;
+   
+    
+    top: -50px;
+}
+
+.card{
+    
+    border: none;
+}
+.price-header{
+color: rgba(0, 0, 0, 0.5);
+
+opacity: 0.2;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 100px;
+position: relative;
+left: 200px;
+}
+.price-subheader{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: xx-large;
+    position: relative;
+    bottom: 90px;
+    left: 325px;
+    
+}
+/* about us section */
+#about-section{
+    background-color: white;
+    text-align: center;
+}
+.about-text{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+.about-subheader{
+    font-weight: bold;
+  
+}
+.about-header{
+    width: 286px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 70px;
+}
+.card{
+    width: 298px;
+    height: 164px;
+   
+}
+/*Blog section*/
+#blog-section{
+    margin-top: 20px;
+    background-color: grey;
+    text-align: center;
+    line-height: 1;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+.blog-header{
+    font-size: 70px;
+    margin-left: auto;
+    margin-right:auto;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.card41-subheader{
+    max-width: 70%;
+    margin-left: 70px;
+}
+.card41-subtext{
+    max-width: 70%;
+    margin-left: 90px;
+    text-align: left;
+}
+.card41-link{
+    text-decoration: none;
+     color:black;
+    
+}
+/*footer*/
+#footer{
+text-align: center;
+padding-top: 80px;
+}
+.others{
+    
+    position: relative;
+    bottom: 150px;
+    list-style: none;
+    margin-left: 81%;
+    line-height: 1.5rem;
+  text-align: left;
+}
+.contact-us{
+    margin-left: 40px;
+    list-style: none;
+    line-height: 2rem;
+    text-align: left;
+}
+.others a{
+    text-decoration: none;
+    color: #000000;
+}
